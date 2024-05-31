@@ -1,0 +1,33 @@
+.search-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.search-input {
+    width: 100%;  /* Adaptez la largeur selon votre layout */
+    max-width: 400px; /* Largeur maximale pour le contrôle */
+    padding: 8px 16px;  /* Padding intérieur pour éloigner le texte des bords */
+    font-size: 16px;  /* Taille de la police raisonnable pour la lisibilité */
+    border: 1px solid #EE82EE;  /* Une bordure subtile et légère */
+    border-radius: 30px;  /* Bords très arrondis */
+    outline: none;  /* Retire l'outline par défaut au focus */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);  /* Une légère ombre pour un effet de profondeur */
+    transition: all 0.3s ease;  /* Transition douce pour les interactions */
+    background-color: #2A2A2A;
+    color: white;
+}
+
+.search-input::placeholder {
+    color: #aaa;  /* Couleur pour le texte du placeholder */
+}
+
+.search-input:hover {
+    border-color: white;  /* Changement de couleur de la bordure au focus */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);  /* Ombre plus prononcée pour le focus */
+}
+
+.search-input:focus::placeholder {
+    font-weight:500;
+    
+}
