@@ -14,8 +14,16 @@ html, body{
     height: 90%;
 }
 
+.w100{
+    width: 100%;
+}
 
-
+.myErrors{
+    position: fixed;
+    border: red 5px solid;
+    height: 500px;
+    width: 600px;
+}
 
 .parentSoundbar{
     width: 100px;
@@ -51,14 +59,9 @@ html, body{
 
 .playbar{
 height: 100%;
-width: 80%;
+width: 0%;
 background-color: green;
 z-index: 1;
 }
 
 
-.accueil{
-    height: 100%;
-    width: 100%;
-    background-color: violet;
-}

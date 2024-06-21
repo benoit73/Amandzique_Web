@@ -1,8 +1,51 @@
 var monAudio; 
 var niveauVolume;
+var urlMusiqueLecteur = "";
 $(document).ready(function() {
-    monAudio = new Audio("ressources/sounds/chinois.mp3");
+    monAudio = new Audio();
     var isPlaying = false; 
+
+    $(".contenu").on('click', '.videoContainer', function() {
+        // Mettre en pause l'objet Audio existant
+        if (monAudio) {
+            monAudio.pause();
+        }
+
+        var url = $(this).attr("data-url"); // Récupération de l'attribut 'data-url'
+        var jsonMsg = JSON.stringify({url: url});
+
+        $.ajax({
+            url: 'http://localhost:5000/apimusique',
+            type: 'POST',
+            contentType: 'application/json',  // Définition explicite du Content-Type
+            data: jsonMsg,  // Envoi direct du JSON
+            async: false,
+            success: function(response) {
+                urlMusiqueLecteur = (JSON.parse(response)).urlMusique;
+                console.log(urlMusiqueLecteur);
+            },
+            error: function(xhr, status, error) {
+                alert("Erreur lors de l'appel AJAX: " + error);
+            }
+        });
+
+        // Réinitialiser l'objet Audio existant
+        if (monAudio) {
+            monAudio.currentTime = 0;
+            monAudio.src = "";
+        }
+
+        // Créer un nouvel objet Audio pour la nouvelle musique
+        monAudio = new Audio(urlMusiqueLecteur);
+        monAudio.addEventListener('timeupdate', bougerlabarre);
+        monAudio.play();
+        isPlaying = true;
+        $("#imgBtnPlay").attr("src", "ressources/ico/pause-circle-fill.svg");
+
+    });
+    
+    
+
 
     $("#btnPlay").click(function() {
         if (isPlaying) {
@@ -57,8 +100,16 @@ $(document).ready(function() {
 
     })
 
-    monAudio.addEventListener('timeupdate', function() {
+
+    function bougerlabarre() { // Définir la fonction bougerlabarre
+        console.log("la barre bouge");
         var percentage = (this.currentTime / this.duration) * 100;
         $('.playbar').css('width', percentage + '%');
-    });
+    }
+
+
+
+
+   
+
 });

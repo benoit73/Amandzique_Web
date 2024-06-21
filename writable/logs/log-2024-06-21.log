@@ -1,0 +1,186 @@
+CRITICAL - 2024-06-21 08:25:15 --> ArgumentCountError: The number of elements in the type definition string must match the number of bind variables
+[Method: POST, Route: test]
+in APPPATH\Controllers\SearchController.php on line 117.
+ 1 APPPATH\Controllers\SearchController.php(117): mysqli_stmt->bind_param('1MteKe4McrQ', 'https://i.ytimg.com/vi/1MteKe4McrQ/hqdefault.jpg', 'Je me promène malgré les problèmes 🤣#jul @julsaintjean #tendencias #foryou #shortsvideo #shorts', 'Fred Judoka 🥋', '2023-02-08T20:10:39Z')
+ 2 APPPATH\Controllers\SearchController.php(69): App\Controllers\SearchController->saveResearch('jul malgès les problèmes', Object(Google\Service\YouTube\SearchListResponse))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SearchController->searchVideo()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-21 08:29:50 --> ArgumentCountError: The number of elements in the type definition string must match the number of bind variables
+[Method: POST, Route: test]
+in APPPATH\Controllers\SearchController.php on line 117.
+ 1 APPPATH\Controllers\SearchController.php(117): mysqli_stmt->bind_param('_zAqHu5F0OA', 'https://i.ytimg.com/vi/_zAqHu5F0OA/hqdefault.jpg', 'Esperanca - J’me promène malgré les problemes 🎵', 'Tiktok - France', '2023-02-11T16:07:00Z')
+ 2 APPPATH\Controllers\SearchController.php(69): App\Controllers\SearchController->saveResearch('jul malgès les problèmes', Object(Google\Service\YouTube\SearchListResponse))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SearchController->searchVideo()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-21 08:30:00 --> ArgumentCountError: The number of elements in the type definition string must match the number of bind variables
+[Method: POST, Route: test]
+in APPPATH\Controllers\SearchController.php on line 117.
+ 1 APPPATH\Controllers\SearchController.php(117): mysqli_stmt->bind_param('EJGUlPcwn-U', 'https://i.ytimg.com/vi/EJGUlPcwn-U/hqdefault.jpg', 'JUL - JE ME PROMÈNE // ALBUM GRATUIT [11]  // 2016', 'DORETDEPLATINE', '2016-04-11T19:17:39Z')
+ 2 APPPATH\Controllers\SearchController.php(69): App\Controllers\SearchController->saveResearch('jul jme premene', Object(Google\Service\YouTube\SearchListResponse))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SearchController->searchVideo()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-21 08:30:40 --> ArgumentCountError: The number of elements in the type definition string must match the number of bind variables
+[Method: POST, Route: test]
+in APPPATH\Controllers\SearchController.php on line 117.
+ 1 APPPATH\Controllers\SearchController.php(117): mysqli_stmt->bind_param('O6hNah2Edvc', 'https://i.ytimg.com/vi/O6hNah2Edvc/hqdefault.jpg', 'Je me promène', 'JUL - Topic', '2018-10-04T21:49:36Z')
+ 2 APPPATH\Controllers\SearchController.php(69): App\Controllers\SearchController->saveResearch('jul je me promene', Object(Google\Service\YouTube\SearchListResponse))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SearchController->searchVideo()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-21 08:33:09 --> ArgumentCountError: The number of elements in the type definition string must match the number of bind variables
+[Method: POST, Route: searchVideo]
+in APPPATH\Controllers\SearchController.php on line 117.
+ 1 APPPATH\Controllers\SearchController.php(117): mysqli_stmt->bind_param('gx1MSJGnp8g', 'https://i.ytimg.com/vi/gx1MSJGnp8g/hqdefault.jpg', 'Mon tiek ti amo (feat. Norey Fz)', 'JUL - Topic', '2017-06-29T22:00:48Z')
+ 2 APPPATH\Controllers\SearchController.php(69): App\Controllers\SearchController->saveResearch('jul ti amo', Object(Google\Service\YouTube\SearchListResponse))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SearchController->searchVideo()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-21 08:33:37 --> ArgumentCountError: The number of elements in the type definition string must match the number of bind variables
+[Method: POST, Route: searchVideo]
+in APPPATH\Controllers\SearchController.php on line 117.
+ 1 APPPATH\Controllers\SearchController.php(117): mysqli_stmt->bind_param('gdmlZ_GUaYA', 'https://i.ytimg.com/vi/gdmlZ_GUaYA/hqdefault.jpg', 'Ti Amo', 'Luchè - Topic', '2018-07-28T14:37:44Z')
+ 2 APPPATH\Controllers\SearchController.php(69): App\Controllers\SearchController->saveResearch('jul ti amoi', Object(Google\Service\YouTube\SearchListResponse))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SearchController->searchVideo()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-21 08:35:30 --> ArgumentCountError: The number of elements in the type definition string must match the number of bind variables
+[Method: POST, Route: ControllerSearchVideo]
+in APPPATH\Controllers\SearchController.php on line 117.
+ 1 APPPATH\Controllers\SearchController.php(117): mysqli_stmt->bind_param('8aCuGFMnd5s', 'https://i.ytimg.com/vi/8aCuGFMnd5s/hqdefault.jpg', 'DTF - Cosmonaute [Clip Officiel]', 'DTF', '2015-12-30T19:12:28Z')
+ 2 APPPATH\Controllers\SearchController.php(69): App\Controllers\SearchController->saveResearch('dtf cosmonote', Object(Google\Service\YouTube\SearchListResponse))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SearchController->searchVideo()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-21 08:40:27 --> ArgumentCountError: The number of elements in the type definition string must match the number of bind variables
+[Method: POST, Route: ControllerSearchVideo]
+in APPPATH\Controllers\SearchController.php on line 114.
+ 1 APPPATH\Controllers\SearchController.php(114): mysqli_stmt->bind_param('mxqZsnsrcn0', 'https://i.ytimg.com/vi/mxqZsnsrcn0/hqdefault.jpg', 'DTF - Comme tu veux [Clip officiel]', 'DTF', '2016-03-18T19:32:07Z')
+ 2 APPPATH\Controllers\SearchController.php(66): App\Controllers\SearchController->saveResearch('dtf comme tu veux', Object(Google\Service\YouTube\SearchListResponse))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SearchController->searchVideo()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-21 09:53:34 --> ArgumentCountError: The number of elements in the type definition string must match the number of bind variables
+[Method: POST, Route: ControllerSearchVideo]
+in APPPATH\Controllers\SearchController.php on line 124.
+ 1 APPPATH\Controllers\SearchController.php(124): mysqli_stmt->bind_param('HneIvRtrlis', 'https://i.ytimg.com/vi/HneIvRtrlis/hqdefault.jpg', 'Méditation du sourire et de l&#39;amour de soi en moins de 20 minutes | Papa Ours', 'Papa Ours', '2021-10-07T03:15:10Z')
+ 2 APPPATH\Controllers\SearchController.php(70): App\Controllers\SearchController->saveResearch('papa ours', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SearchController->searchVideo()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-21 09:55:49 --> ArgumentCountError: The number of elements in the type definition string must match the number of bind variables
+[Method: POST, Route: ControllerSearchVideo]
+in APPPATH\Controllers\SearchController.php on line 127.
+ 1 APPPATH\Controllers\SearchController.php(127): mysqli_stmt->bind_param('6FvHFpo-hAI', 'https://i.ytimg.com/vi/6FvHFpo-hAI/hqdefault.jpg', 'ROA, Hades66, Luar La L - UuU 2 (Official Video)', 'ROAVEVO', '2023-12-07T01:30:08Z')
+ 2 APPPATH\Controllers\SearchController.php(70): App\Controllers\SearchController->saveResearch('uuu', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SearchController->searchVideo()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-21 09:56:57 --> ArgumentCountError: The number of elements in the type definition string must match the number of bind variables
+[Method: POST, Route: ControllerSearchVideo]
+in APPPATH\Controllers\SearchController.php on line 126.
+ 1 APPPATH\Controllers\SearchController.php(126): mysqli_stmt->bind_param('uM2JWW55m_c', 'https://i.ytimg.com/vi/uM2JWW55m_c/hqdefault.jpg', 'azeazr', 'Geinx2505', '2015-04-06T19:31:47Z')
+ 2 APPPATH\Controllers\SearchController.php(70): App\Controllers\SearchController->saveResearch('azeazr', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SearchController->searchVideo()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-21 09:57:18 --> ArgumentCountError: The number of elements in the type definition string must match the number of bind variables
+[Method: POST, Route: ControllerSearchVideo]
+in APPPATH\Controllers\SearchController.php on line 126.
+ 1 APPPATH\Controllers\SearchController.php(126): mysqli_stmt->bind_param('A80hs-BtgwY', 'https://i.ytimg.com/vi/A80hs-BtgwY/hqdefault.jpg', '퍼플키스(PURPLE KISS) &#39;BBB&#39; MV', 'PURPLE KISS', '2024-03-19T08:58:08Z')
+ 2 APPPATH\Controllers\SearchController.php(70): App\Controllers\SearchController->saveResearch('bbb', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SearchController->searchVideo()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-21 09:57:31 --> ArgumentCountError: The number of elements in the type definition string must match the number of bind variables
+[Method: POST, Route: ControllerSearchVideo]
+in APPPATH\Controllers\SearchController.php on line 127.
+ 1 APPPATH\Controllers\SearchController.php(127): mysqli_stmt->bind_param('8tGoh1ntcDE', 'https://i.ytimg.com/vi/8tGoh1ntcDE/hqdefault.jpg', 'İlkay Akkaya - Aze', 'Müzik Plus', '2018-04-26T22:28:42Z')
+ 2 APPPATH\Controllers\SearchController.php(70): App\Controllers\SearchController->saveResearch('azeaze', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SearchController->searchVideo()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-21 09:57:43 --> ArgumentCountError: The number of elements in the type definition string must match the number of bind variables
+[Method: POST, Route: ControllerSearchVideo]
+in APPPATH\Controllers\SearchController.php on line 126.
+ 1 APPPATH\Controllers\SearchController.php(126): mysqli_stmt->bind_param('wZTIdnooV-s', 'https://i.ytimg.com/vi/wZTIdnooV-s/hqdefault.jpg', 'Sub Urban - UH OH! (feat. BENEE) [Official Music Video]', 'Sub Urban', '2022-04-22T04:00:12Z')
+ 2 APPPATH\Controllers\SearchController.php(70): App\Controllers\SearchController->saveResearch('ooo', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SearchController->searchVideo()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-21 16:28:24 --> ErrorException: Array to string conversion
+[Method: POST, Route: ControllerSearchVideo]
+in APPPATH\Controllers\SearchController.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\wamp64\\www\\Amandzique_Web\\app\\Controllers\\SearchController.php', 51)
+ 2 APPPATH\Controllers\SearchController.php(51): file_put_contents('mesLog.txt', [...], 8)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SearchController->searchVideo()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-21 16:28:38 --> ErrorException: Array to string conversion
+[Method: POST, Route: ControllerSearchVideo]
+in APPPATH\Controllers\SearchController.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\wamp64\\www\\Amandzique_Web\\app\\Controllers\\SearchController.php', 51)
+ 2 APPPATH\Controllers\SearchController.php(51): file_put_contents('mesLog.txt', [...], 8)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SearchController->searchVideo()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-21 16:34:10 --> ErrorException: Undefined property: CodeIgniter\HTTP\Response::${"monformat":"sql","items":[{"id":65,"lienYoutube":"g0XkWlKCMJE","lienServeur":null,"lienImage":"https:\/\/i.ytimg.com\/vi\/g0XkWlKCMJE\/hqdefault.jpg","titre":"Viego uWu Edit (League of Legends)","chaine":"Symagunc","datePublication":"2022-05-25T23:58:42Z","idMusique":81,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"2nCdMCZUXEI","lienServeur":null,"lienImage":"https:\/\/i.ytimg.com\/vi\/2nCdMCZUXEI\/hqdefault.jpg","titre":"Aatrox UwU edit(League of Legends)","chaine":"King Poro","datePublication":"2022-06-05T11:12:55Z","idMusique":80,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"mkKQvIcyh4I","lienServeur":null,"lienImage":"https:\/\/i.ytimg.com\/vi\/mkKQvIcyh4I\/hqdefault.jpg","titre":"KAYN UwU Edit League of Legends","chaine":"Lesh","datePublication":"2022-07-20T12:40:44Z","idMusique":79,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"H7KphvOmy3k","lienServeur":null,"lienImage":"https:\/\/i.ytimg.com\/vi\/H7KphvOmy3k\/hqdefault.jpg","titre":"PYKE UwU Edit  League of Legends","chaine":"Lesh","datePublication":"2022-03-30T19:35:37Z","idMusique":78,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"DTQSC4mz0z0","lienServeur":null,"lienImage":"https:\/\/i.ytimg.com\/vi\/DTQSC4mz0z0\/hqdefault.jpg","titre":"Nautilus uWu Edit (League of Legends)","chaine":"Symagunc","datePublication":"2022-04-19T20:08:55Z","idMusique":77,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"M-cVMrNZbL4","lienServeur":null,"lienImage":"https:\/\/i.ytimg.com\/vi\/M-cVMrNZbL4\/hqdefault.jpg","titre":"Sett UwU Edit (League of Legends)","chaine":"Tauhm","datePublication":"2022-04-04T18:31:00Z","idMusique":76,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"07pPIXQQDH8","lienServeur":null,"lienImage":"https:\/\/i.ytimg.com\/vi\/07pPIXQQDH8\/hqdefault.jpg","titre":"Xayah and Rakan UwU Edit(League of Legends)","chaine":"King Poro","datePublication":"2022-06-06T06:30:23Z","idMusique":75,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"aN1M35zOFbI","lienServeur":null,"lienImage":"https:\/\/i.ytimg.com\/vi\/aN1M35zOFbI\/hqdefault.jpg","titre":"Master Yi UwU Edit (League of Legends)","chaine":"Conqueror Yi","datePublication":"2022-04-13T10:23:37Z","idMusique":74,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"7VVHyXkAtMM","lienServeur":null,"lienImage":"https:\/\/i.ytimg.com\/vi\/7VVHyXkAtMM\/hqdefault.jpg","titre":"HAI GUYZ LOL UWU","chaine":"xMoqax","datePublication":"2020-07-27T18:34:40Z","idMusique":73,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"DdcU4ucvraA","lienServeur":null,"lienImage":"https:\/\/i.ytimg.com\/vi\/DdcU4ucvraA\/hqdefault.jpg","titre":"ZED UwU Edit League of Legends","chaine":"Lesh","datePublication":"2022-04-06T16:36:51Z","idMusique":72,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"_x8h3vGfZ9o","lienServeur":null,"lienImage":"https:\/\/i.ytimg.com\/vi\/_x8h3vGfZ9o\/hqdefault.jpg","titre":"Darius UwU edit (League of Legends)","chaine":"Humerus","datePublication":"2022-02-24T13:52:44Z","idMusique":71,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"8QNhL5huNhs","lienServeur":null,"lienImage":"https:\/\/i.ytimg.com\/vi\/8QNhL5huNhs\/hqdefault.jpg","titre":"[EN] Ahri UwU Edit (League of Legends) [4K]","chaine":"Tenshy","datePublication":"2022-05-14T11:18:21Z","idMusique":70,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"YzJ9z0umrOc","lienServeur":null,"lienImage":"https:\/\/i.ytimg.com\/vi\/YzJ9z0umrOc\/hqdefault.jpg","titre":"[EN] Morgana UwU Edit (League of Legends) [4K]","chaine":"Tenshy","datePublication":"2022-05-18T13:00:17Z","idMusique":69,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"4VjyNEzaN-c","lienServeur":null,"lienImage":"https:\/\/i.ytimg.com\/vi\/4VjyNEzaN-c\/hqdefault.jpg","titre":"Yasuo uWu Edit (League of Legends)","chaine":"Symagunc","datePublication":"2022-04-04T15:43:28Z","idMusique":68,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"r2MpDOBukGQ","lienServeur":null,"lienImage":"https:\/\/i.ytimg.com\/vi\/r2MpDOBukGQ\/hqdefault.jpg","titre":"YONE UwU Edit League of Legends","chaine":"Lesh","datePublication":"2022-04-12T00:15:07Z","idMusique":67,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"c48R5APvsSE","lienServeur":null,"lienImage":"https:\/\/i.ytimg.com\/vi\/c48R5APvsSE\/hqdefault.jpg","titre":"[EN] Evelynn UwU Edit (League of Legends) [4K]","chaine":"Tenshy","datePublication":"2022-05-10T17:48:43Z","idMusique":66,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"dkPdce-PaHI","lienServeur":null,"lienImage":"https:\/\/i.ytimg.com\/vi\/dkPdce-PaHI\/hqdefault.jpg","titre":"Fiddlesticks uWu Edit (League of Legends)","chaine":"Symagunc","datePublication":"2022-04-17T11:40:06Z","idMusique":65,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"WI5A4114Y6w","lienServeur":null,"lienImage":"https:\/\/i.ytimg.com\/vi\/WI5A4114Y6w\/hqdefault.jpg","titre":"Aatrox uWu Edit (League of Legends)","chaine":"Symagunc","datePublication":"2022-05-06T00:09:54Z","idMusique":64,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"yotGksZ5d7Y","lienServeur":null,"lienImage":"https:\/\/i.ytimg.com\/vi\/yotGksZ5d7Y\/hqdefault.jpg","titre":"Mordekaiser uWu Edit (League of Legends)","chaine":"Symagunc","datePublication":"2022-04-06T15:02:59Z","idMusique":63,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"OSI9wxn4-pg","lienServeur":null,"lienImage":"https:\/\/i.ytimg.com\/vi\/OSI9wxn4-pg\/hqdefault.jpg","titre":"Pyke UwU Edit  (League of Legends)","chaine":"Th3Venom","datePublication":"2022-02-03T11:30:35Z","idMusique":62,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"}]}
+[Method: POST, Route: ControllerSearchVideo]
+in APPPATH\Controllers\SearchController.php on line 52.
+ 1 APPPATH\Controllers\SearchController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\Response::${"monformat":"sql","items":[{"id":65,"lienYoutube":"g0XkWlKCMJE","lienServeur":null,"lienImage":"https:\\/\\/i.ytimg.com\\/vi\\/g0XkWlKCMJE\\/hqdefault.jpg","titre":"Viego uWu Edit (League of Legends)","chaine":"Symagunc","datePublication":"2022-05-25T23:58:42Z","idMusique":81,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"2nCdMCZUXEI","lienServeur":null,"lienImage":"https:\\/\\/i.ytimg.com\\/vi\\/2nCdMCZUXEI\\/hqdefault.jpg","titre":"Aatrox UwU edit(League of Legends)","chaine":"King Poro","datePublication":"2022-06-05T11:12:55Z","idMusique":80,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"mkKQvIcyh4I","lienServeur":null,"lienImage":"https:\\/\\/i.ytimg.com\\/vi\\/mkKQvIcyh4I\\/hqdefault.jpg","titre":"KAYN UwU Edit League of Legends","chaine":"Lesh","datePublication":"2022-07-20T12:40:44Z","idMusique":79,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"H7KphvOmy3k","lienServeur":null,"lienImage":"https:\\/\\/i.ytimg.com\\/vi\\/H7KphvOmy3k\\/hqdefault.jpg","titre":"PYKE UwU Edit  League of Legends","chaine":"Lesh","datePublication":"2022-03-30T19:35:37Z","idMusique":78,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"DTQSC4mz0z0","lienServeur":null,"lienImage":"https:\\/\\/i.ytimg.com\\/vi\\/DTQSC4mz0z0\\/hqdefault.jpg","titre":"Nautilus uWu Edit (League of Legends)","chaine":"Symagunc","datePublication":"2022-04-19T20:08:55Z","idMusique":77,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"M-cVMrNZbL4","lienServeur":null,"lienImage":"https:\\/\\/i.ytimg.com\\/vi\\/M-cVMrNZbL4\\/hqdefault.jpg","titre":"Sett UwU Edit (League of Legends)","chaine":"Tauhm","datePublication":"2022-04-04T18:31:00Z","idMusique":76,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"07pPIXQQDH8","lienServeur":null,"lienImage":"https:\\/\\/i.ytimg.com\\/vi\\/07pPIXQQDH8\\/hqdefault.jpg","titre":"Xayah and Rakan UwU Edit(League of Legends)","chaine":"King Poro","datePublication":"2022-06-06T06:30:23Z","idMusique":75,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"aN1M35zOFbI","lienServeur":null,"lienImage":"https:\\/\\/i.ytimg.com\\/vi\\/aN1M35zOFbI\\/hqdefault.jpg","titre":"Master Yi UwU Edit (League of Legends)","chaine":"Conqueror Yi","datePublication":"2022-04-13T10:23:37Z","idMusique":74,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"7VVHyXkAtMM","lienServeur":null,"lienImage":"https:\\/\\/i.ytimg.com\\/vi\\/7VVHyXkAtMM\\/hqdefault.jpg","titre":"HAI GUYZ LOL UWU","chaine":"xMoqax","datePublication":"2020-07-27T18:34:40Z","idMusique":73,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"DdcU4ucvraA","lienServeur":null,"lienImage":"https:\\/\\/i.ytimg.com\\/vi\\/DdcU4ucvraA\\/hqdefault.jpg","titre":"ZED UwU Edit League of Legends","chaine":"Lesh","datePublication":"2022-04-06T16:36:51Z","idMusique":72,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"_x8h3vGfZ9o","lienServeur":null,"lienImage":"https:\\/\\/i.ytimg.com\\/vi\\/_x8h3vGfZ9o\\/hqdefault.jpg","titre":"Darius UwU edit (League of Legends)","chaine":"Humerus","datePublication":"2022-02-24T13:52:44Z","idMusique":71,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"8QNhL5huNhs","lienServeur":null,"lienImage":"https:\\/\\/i.ytimg.com\\/vi\\/8QNhL5huNhs\\/hqdefault.jpg","titre":"[EN] Ahri UwU Edit (League of Legends) [4K]","chaine":"Tenshy","datePublication":"2022-05-14T11:18:21Z","idMusique":70,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"YzJ9z0umrOc","lienServeur":null,"lienImage":"https:\\/\\/i.ytimg.com\\/vi\\/YzJ9z0umrOc\\/hqdefault.jpg","titre":"[EN] Morgana UwU Edit (League of Legends) [4K]","chaine":"Tenshy","datePublication":"2022-05-18T13:00:17Z","idMusique":69,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"4VjyNEzaN-c","lienServeur":null,"lienImage":"https:\\/\\/i.ytimg.com\\/vi\\/4VjyNEzaN-c\\/hqdefault.jpg","titre":"Yasuo uWu Edit (League of Legends)","chaine":"Symagunc","datePublication":"2022-04-04T15:43:28Z","idMusique":68,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"r2MpDOBukGQ","lienServeur":null,"lienImage":"https:\\/\\/i.ytimg.com\\/vi\\/r2MpDOBukGQ\\/hqdefault.jpg","titre":"YONE UwU Edit League of Legends","chaine":"Lesh","datePublication":"2022-04-12T00:15:07Z","idMusique":67,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"c48R5APvsSE","lienServeur":null,"lienImage":"https:\\/\\/i.ytimg.com\\/vi\\/c48R5APvsSE\\/hqdefault.jpg","titre":"[EN] Evelynn UwU Edit (League of Legends) [4K]","chaine":"Tenshy","datePublication":"2022-05-10T17:48:43Z","idMusique":66,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"dkPdce-PaHI","lienServeur":null,"lienImage":"https:\\/\\/i.ytimg.com\\/vi\\/dkPdce-PaHI\\/hqdefault.jpg","titre":"Fiddlesticks uWu Edit (League of Legends)","chaine":"Symagunc","datePublication":"2022-04-17T11:40:06Z","idMusique":65,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"WI5A4114Y6w","lienServeur":null,"lienImage":"https:\\/\\/i.ytimg.com\\/vi\\/WI5A4114Y6w\\/hqdefault.jpg","titre":"Aatrox uWu Edit (League of Legends)","chaine":"Symagunc","datePublication":"2022-05-06T00:09:54Z","idMusique":64,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"yotGksZ5d7Y","lienServeur":null,"lienImage":"https:\\/\\/i.ytimg.com\\/vi\\/yotGksZ5d7Y\\/hqdefault.jpg","titre":"Mordekaiser uWu Edit (League of Legends)","chaine":"Symagunc","datePublication":"2022-04-06T15:02:59Z","idMusique":63,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"},{"id":65,"lienYoutube":"OSI9wxn4-pg","lienServeur":null,"lienImage":"https:\\/\\/i.ytimg.com\\/vi\\/OSI9wxn4-pg\\/hqdefault.jpg","titre":"Pyke UwU Edit  (League of Legends)","chaine":"Th3Venom","datePublication":"2022-02-03T11:30:35Z","idMusique":62,"idRecherche":65,"recherche":"uwu lol","dateRecherche":"2024-06-21 12:17:56"}]}', 'C:\\wamp64\\www\\Amandzique_Web\\app\\Controllers\\SearchController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SearchController->searchVideo()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

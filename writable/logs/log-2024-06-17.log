@@ -1,0 +1,60 @@
+CRITICAL - 2024-06-17 10:21:27 --> Error: Object of class Google\Client could not be converted to string
+[Method: POST, Route: test]
+in APPPATH\Controllers\SearchController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SearchController->searchVideo()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-17 10:21:36 --> Error: Object of class Google\Client could not be converted to string
+[Method: POST, Route: test]
+in APPPATH\Controllers\SearchController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SearchController->searchVideo()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-17 11:03:27 --> ErrorException: Array to string conversion
+[Method: POST, Route: test]
+in APPPATH\Controllers\SearchController.php on line 69.
+ 1 APPPATH\Controllers\SearchController.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\wamp64\\www\\Amandzique_Web\\app\\Controllers\\SearchController.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SearchController->searchVideo()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-17 11:30:56 --> ErrorException: Array to string conversion
+[Method: POST, Route: test]
+in APPPATH\Controllers\SearchController.php on line 69.
+ 1 APPPATH\Controllers\SearchController.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\wamp64\\www\\Amandzique_Web\\app\\Controllers\\SearchController.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SearchController->searchVideo()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-17 11:31:16 --> ArgumentCountError: The number of elements in the type definition string must match the number of bind variables
+[Method: POST, Route: test]
+in APPPATH\Controllers\SearchController.php on line 117.
+ 1 APPPATH\Controllers\SearchController.php(117): mysqli_stmt->bind_param('waxW-R_fFSQ', 'https://i.ytimg.com/vi/waxW-R_fFSQ/hqdefault.jpg', 'Martin Luther King Jr: Risked Life for Civil Rights Movement | Biography', 'Biography', '2021-02-12T17:59:46Z')
+ 2 APPPATH\Controllers\SearchController.php(69): App\Controllers\SearchController->saveResearch('martin lutherking', Object(Google\Service\YouTube\SearchListResponse))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SearchController->searchVideo()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-17 11:31:26 --> ArgumentCountError: The number of elements in the type definition string must match the number of bind variables
+[Method: POST, Route: test]
+in APPPATH\Controllers\SearchController.php on line 117.
+ 1 APPPATH\Controllers\SearchController.php(117): mysqli_stmt->bind_param('392NBDRJLzE', 'https://i.ytimg.com/vi/392NBDRJLzE/hqdefault.jpg', 'Biden, Obama attend Hollywood campaign event', 'FOX 11 Los Angeles', '2024-06-16T16:47:27Z')
+ 2 APPPATH\Controllers\SearchController.php(69): App\Controllers\SearchController->saveResearch('obama', Object(Google\Service\YouTube\SearchListResponse))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SearchController->searchVideo()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

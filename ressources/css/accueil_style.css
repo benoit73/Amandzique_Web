@@ -1,3 +1,9 @@
+
+.accueil{
+    height: 100%;
+    width: 100%;
+    background-color: #0F0F0F;
+}
 .search-container {
     display: flex;
     justify-content: center;
@@ -30,4 +36,39 @@
 .search-input:focus::placeholder {
     font-weight:500;
     
+}
+
+.thumbnail{
+    height:100%;
+    width:100%;
+}
+
+.thumbnailContainer{
+    height:200px;
+    width:350px;
+    border-radius: 10px; /* Définit le rayon des coins à 10 pixels */
+}
+
+.titre{
+    font-family: "Roboto", "Arial", sans-serif;
+    color: #FEFEFE;
+    width: 282px;
+    height: 44px;
+}
+
+.infosVid{
+    font-size: small;
+    color: #AAAAAA;
+}
+
+.contenu{
+    display: flex;       /* Active le modèle flex */
+    flex-wrap: wrap;     /* Permet aux éléments de passer à la ligne si nécessaire */
+    max-width: 100%;    /* Définit la largeur maximale du conteneur */
+    padding: 10px;       /* Espacement autour du contenu interne */
+}
+
+.videoContainer{
+    max-width: 385px;
+    padding: 10px;
 }
